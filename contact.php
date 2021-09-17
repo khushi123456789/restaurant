@@ -13,7 +13,7 @@
        }
        else
        {
-           $to = "khushimtj12345@gmail.com";
+           $to = "abc@gmail.com";
            if(mail($to,$Msg,$Email))
            {
                header("location:web.php?success");
